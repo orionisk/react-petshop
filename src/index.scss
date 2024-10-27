@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+html,
+body {
+  font-family: 'Montserrat Variable', sans-serif;
+  color: theme('colors.charcoal-gray');
+}
+
+html,
+body {
+  height: 100%;
+}
