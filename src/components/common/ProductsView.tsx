@@ -59,7 +59,7 @@ export const ProductsView: React.FC<ProductsViewProps> = ({
       />
       <ul
         ref={parent}
-        className='mt-4 grid min-h-[422px] gap-4 max-xs:place-content-center xs:grid-cols-2 sm:grid-cols-3 lg:mt-6 lg:grid-cols-4 xl:mt-9 xl:gap-8 [&_img]:h-[300px] sm:[&_img]:h-[205px] lg:[&_img]:h-[284px]'
+        className='mt-4 grid min-h-[422px] content-start gap-4 max-xs:place-content-center xs:grid-cols-2 sm:grid-cols-3 lg:mt-6 lg:grid-cols-4 xl:mt-9 xl:gap-8 [&_img]:h-[300px] sm:[&_img]:h-[205px] lg:[&_img]:h-[284px]'
       >
         {filteredAndSortedProducts.length > 0 ? (
           filteredAndSortedProducts.map(product => (
